@@ -187,6 +187,17 @@ SECTIONS
 		__bss_end__ = .;
 	} > RAM
 
+    /* Section for static data not initialized to 0 at startup, to allow
+     * passing data in RAM between soft resets */
+    .noinit(NOLOAD) :
+    {
+        . = ALIGN(4);
+        __noinit_start__ = .;
+        KEEP(*(.noinit))
+        . = ALIGN(4);
+        __noinit_end__ = .;
+    } > RAM
+
 	.heap (COPY):
 	{
 		__end__ = .;
