@@ -14,7 +14,7 @@
           "version": "1.0.6",
           "category": "contributed",
           "help": {"online": "https://www.canari.io"},
-          "url": "https://github.com/gaeldelalleau/canari-board/raw/master/arduino/samd.zip",
+          "url": "https://github.com/gaeldelalleau/canari-board/raw/main/arduino/samd.zip",
           "archiveFileName": "canari-co2ampel-samd-1.0.6.zip",
           "size": "31790",
           "boards": [

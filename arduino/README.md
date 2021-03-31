@@ -6,7 +6,7 @@ Board Support Package for [Arduino IDE](https://www.arduino.cc/en/Main/Software)
 
 Add the following URL to the Arduino Boards Manager (*File->Preferences*):
 ```
-https://github.com/gaeldelalleau/canari-board/raw/master/package_co2ampel_index.json
+https://raw.githubusercontent.com/gaeldelalleau/canari-board/main/package_co2ampel_index.json
 ```
 Then open the Arduino Boards Manager (*Tools->Boards->Boards Manager*) and install the 
 **Arduino SAMD Boards** and **Canari CO2-Ampel Board**.
