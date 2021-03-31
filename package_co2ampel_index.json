@@ -1,0 +1,29 @@
+{
+  "packages": [
+    {
+      "name": "canari-co2ampel",
+      "maintainer": "Canari",
+      "websiteURL": "https://www.canari.io",
+      "email": "",
+      "help": {"online": "https://www.canari.io"},
+
+      "platforms": [
+        {
+          "name": "Canari CO2-Ampel Board (dependency: Arduino SAMD Boards)",
+          "architecture": "samd",
+          "version": "1.0.6",
+          "category": "contributed",
+          "help": {"online": "https://www.canari.io"},
+          "url": "https://github.com/gaeldelalleau/canari-board/raw/master/arduino/samd.zip",
+          "archiveFileName": "canari-co2ampel-samd-1.0.6.zip",
+          "size": "1367792",
+          "boards": [
+            {"name": "Canari CO2-Ampel (SAMD21)"}
+          ]
+        }
+      ],
+      "tools": [
+      ]
+    }
+  ]
+}
